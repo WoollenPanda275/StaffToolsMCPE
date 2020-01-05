@@ -57,6 +57,11 @@ class ToolsGUI {
     $menu->setListener(function (Player $player, Item $itemClicked, Item $itemClickedWith, SlotChangeAction $action) use ($victim, $menu) : bool{
       switch ($itemClicked->getId()) {
         case Item::CLOCK:
+          if ($this->plugin->getServer()->getPluginManager()->getPlugin("PreciseCpsCounter") == null) {
+            $player->sendMessage("You need PreciseCpsCounter by luca28pet to use this feature");
+            $player->removeWindow($action->getInventory());
+            return false;
+          }
           $player->removeWindow($action->getInventory());
           $menu1 = InvMenu::create(InvMenu::TYPE_CHEST);
           $menu1->readonly();
