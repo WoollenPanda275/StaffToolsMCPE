@@ -47,11 +47,6 @@ class Main extends PluginBase {
       }
       return true;
     }
-    if ($command->getName() == "lol") {
-      $cl = new ToolsGUI($this);
-      $cl->openGUI($sender, $sender);
-      return true;
-    }
     return true;
   }
 
