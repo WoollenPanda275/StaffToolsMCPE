@@ -1,5 +1,4 @@
 ![](https://poggit.pmmp.io/shield.state/StaffTools)](https://poggit.pmmp.io/p/StaffTools)
-<a href="https://poggit.pmmp.io/p/StaffTools"><img src="https://poggit.pmmp.io/shield.state/StaffTools"></a>
 
 # StaffToolsMCPE
 This PocketMine-MP plugin provides you some tools to help detect cheaters or hackers in your server.
