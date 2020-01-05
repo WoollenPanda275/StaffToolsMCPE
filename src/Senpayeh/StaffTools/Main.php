@@ -26,7 +26,7 @@ class Main extends PluginBase {
 
   public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
     if ($command->getName() == "tools") {
-      if ($sender->hasPermission("tools.command")) {
+      if ($sender->hasPermission("stafftools.command")) {
         if (in_array($sender->getName(), $this->menu)) {
           unset($this->menu[array_search($sender->getName(), $this->menu)]);
           foreach ($sender->getInventory()->getContents() as $item) {
