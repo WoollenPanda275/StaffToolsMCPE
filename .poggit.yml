@@ -2,7 +2,7 @@
 branches:
 - master
 projects:
-  StaffToolsMCPE:
+  StaffTools:
     path: ""
     libs: 
     - src: muqsit/InvMenu/InvMenu
