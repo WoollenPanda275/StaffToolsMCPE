@@ -10,7 +10,7 @@ commands:
   tools:
     description: Toggle StaffTools menu
 permissions:
-  tools.command:
+  stafftools.command:
     default: op
     description: Use /tools command
 ...
