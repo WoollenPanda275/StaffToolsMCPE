@@ -11,8 +11,7 @@ This feature is really useful if your staff members are offline. You can set it 
 ### Warnings
 This feature will show you how many times the plugin has detected the usage of hitbox/reach by a player.
 __IMPORTANT__: a lot of warnings could show, because  if a user is lagging or actually cheating, the plugin will detect every hit the server registers. To be more sure on the situation, always check the logs file.
-
-###Alias
+### Alias
 This feature shows you every account linked to the same IP. For more informations, see [Alias](https://github.com/poggit-orphanage/Alias).
-###Ping
+### Ping
 Shows you the current ping of the player. Refresh it by closing and opening the menu.
