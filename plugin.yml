@@ -9,8 +9,6 @@ depend: [Alias]
 commands:
   tools:
     description: Toggle StaffTools menu
-  lol:
-    description: a
 permissions:
   tools.command:
     default: op
