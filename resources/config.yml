@@ -1,0 +1,6 @@
+---
+# Enable LOGS for everyone on server start
+default-register-logs: false
+# Minimum distance of the 2 players for the plugin to detect "hitbox/reach"
+minimum-distance: 6
+...
