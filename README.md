@@ -5,7 +5,7 @@ This PocketMine-MP plugin provides you some tools to help detect cheaters or hac
 It is highly recommended to use the **Classic Interface** by going to Settings > Video in your game.
 ## Features
 ### Compass
-To have access to the features, you firstly want to type ```/tools``` (make sure you've got the permission ```tools.command``` set) and you will be given a compass. To open the tools menu, simply left click on a player and a GUI will open.
+To have access to the features, you firstly want to type ```/tools``` (make sure you've got the permission ```stafftools.command``` set) and you will be given a compass. To open the tools menu, simply left click on a player and a GUI will open.
 ### Freeze
 Feature added with 2.0 update let you freeze someone
 ### Logs
