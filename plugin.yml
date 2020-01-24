@@ -12,7 +12,4 @@ permissions:
   staffmode.command:
     default: op
     description: Permission to use /tools
-  staffmode.warnmessage:
-    default: op
-    description: Allow staff members to get the warning messages
 ...
