@@ -40,39 +40,39 @@ class CPS extends Task {
         switch ($this->time) {
             case 9:
                 $this->menu->getInventory()->setItem(9, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 8:
                 $this->menu->getInventory()->setItem(10, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 7:
                 $this->menu->getInventory()->setItem(11, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 6:
                 $this->menu->getInventory()->setItem(12, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 5:
                 $this->menu->getInventory()->setItem(13, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 4:
                 $this->menu->getInventory()->setItem(14, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 3:
                 $this->menu->getInventory()->setItem(15, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 2:
                 $this->menu->getInventory()->setItem(16, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 1:
                 $this->menu->getInventory()->setItem(17, $this->plugin->getCPSGlassPane($cps->getCps($this->player)));
-                $this->average = $this->average + $cps->getCps($this->player);
+                $this->average += $cps->getCps($this->player);
                 break;
             case 0:
                 $this->menu->getInventory()->setItem(22, Item::get(Item::SKULL, 3, 1)->setCustomName(C::RESET . C::GREEN . $this->player->getName() . " CPS Test")->setLore([C::WHITE . "Average: " . round($this->average / 9) . " CPS"]));
